@@ -15,7 +15,7 @@
 	/* General config
 	------------------------------------------------------------------------------------------ */
 	// Github location for loading assets
-	let goodTube_github = 'https://raw.githubusercontent.com/goodtube4u/GoodTube/main';
+	let goodTube_github = 'https://raw.githubusercontent.com/gallantcrusader/GoodTube/main';
 
 	// How long to wait before trying to load something again (in milliseconds)
 	let goodTube_retryDelay = 500;
@@ -41,7 +41,12 @@
 
 		// HD SERVERS
 		// --------------------------------------------------------------------------------
-
+		{
+			'name': 'gallant (temp)',
+			'type': 2,
+			'proxy': true,
+			'url': 'https://invidious.nerdvpn.de'
+		},
 		// MEDIUM
 		{
 			'name': 'Rain (DE)',
